@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".play3">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="340dp"
+        android:layout_height="407dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="64dp"
+            android:layout_height="61dp"
+            android:layout_gravity="left"
+            android:background="@drawable/hh"
+
+
+            android:onClick="tohome"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+
+            app:layout_constraintBottom_toBottomOf="@+id/img4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.123"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.059" />
+
+        <ImageView
+
+            android:id="@+id/img1"
+            android:layout_width="131dp"
+            android:layout_height="82dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="wrong"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.421"
+            app:srcCompat="@drawable/tigers" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="126dp"
+            android:layout_height="84dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="wrong"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.154"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img3"
+            app:layout_constraintVertical_bias="0.513"
+            app:srcCompat="@drawable/cat" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="123dp"
+            android:layout_height="84dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="wrong"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.424"
+            app:srcCompat="@drawable/d" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="133dp"
+            android:layout_height="87dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="right"
+            android:padding="5dp"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.879"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img1"
+            app:layout_constraintVertical_bias="0.521"
+            app:srcCompat="@drawable/dogss" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="295dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Where is the Dog?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.219" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/backs"
+            android:padding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.931" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

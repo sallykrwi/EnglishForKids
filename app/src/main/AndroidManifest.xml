@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lotus.englishforkids">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".finish_play"></activity>
+        <activity android:name=".play4" />
+        <activity android:name=".learn9" />
+        <activity android:name=".play3" />
+        <activity android:name=".play2" />
+        <activity android:name=".play1" />
+        <activity android:name=".finish_learn" />
+        <activity android:name=".learn8" />
+        <activity android:name=".learn7" />
+        <activity android:name=".learn6" />
+        <activity android:name=".learn5" />
+        <activity android:name=".learn4" />
+        <activity android:name=".animalsong" />
+        <activity android:name=".learn3" />
+        <activity android:name=".learn2" />
+        <activity android:name=".learn1" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
